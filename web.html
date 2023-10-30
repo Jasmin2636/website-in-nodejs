@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>personal website</title>
+   <style>
+    *{
+    margin: 0%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+body{
+    background-color: rgb(142, 218, 248);
+}
+header{
+    color: rgb(15, 16, 17);
+    text-align: center;
+    padding:15%;
+
+}
+li{
+    display: inline;
+    padding: 3%;
+    top: 0;
+    font-family: monospace;
+    font-size: 20px;
+
+}
+a{
+    color: rgb(238, 245, 245);
+    text-decoration: none;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+a:hover{
+  color:red ;
+  text-decoration:underline; 
+}
+#skills{
+    padding: 2%;
+    background-color: aliceblue;
+    margin-top: 5%;
+    color: black;
+    width: 100%;
+}
+#information{
+    text-align:center;
+    text-decoration: underline;
+    padding-top:  2%;
+    padding-bottom: 2%;
+
+}
+h4{
+    text-align: center;
+margin-top: 1%;
+padding: 1%;
+}
+#client{
+    text-align: center;
+    padding: 3%;
+}
+#lists{
+    display:block;
+    padding: 4%;
+    color:rgb(6, 6, 6);
+
+}
+#about{
+    margin-top: 1.5%;
+    text-align: left;
+    background-color: rgb(250, 251, 252);
+    padding: 2%;
+}
+#aboutme{
+    background-color: rgb(193, 199, 199);
+    width: 100%;
+    height: 1000px;
+}
+#myphoto{
+    padding-top:1.5% ;
+    width: 200px;
+    height: 230px;
+    float: left;
+    margin-left: 15%;
+}
+#jasmin{
+    padding:  5%;
+    padding-left: 30%;
+}
+#contact{
+  background-color: rgb(13, 151, 226);
+    background-size: 100%;
+    width:100%;
+    padding:1%;
+    text-align: center;
+
+}
+#submit{
+    margin-top: 1%;
+}
+
+#details{
+    margin-top: 2%;
+    padding: 1%;
+    font-size:medium;
+}
+#pic{
+    width: 38px;
+    height: 45px;
+}
+#options{
+    color: blue;
+    text-align:end;
+}
+   </style>
+  </head>
+  <body id="body" style="background-image: url(bgimg.jpg);" >
+    <header id="home">
+      <h1>JASMIN TA</h1> 
+      <p>Web Developer | Electronics & Communication Engineer</p></header>
+    <nav id="menu">
+      <ul >
+        <li><a href="#home">HOME</a></li>
+        <li><a href="#jasmin" target="_blank">ABOUT ME</a></li>
+        <Li><a href="#skills">SKILLS</a></Li>
+        <li><a href="resume1.html" target="_blank">RESUME</a></li>
+        <li><a href="#contact info">CONTACT INFO</a></li>
+        <li><a href="#contact">REACH ME</a></li>
+      </ul>
+    </nav>
+ 
+    <body id="aboutme">
+        <h1  id="about">ABOUT ME</h1>
+        <img src="resume.jpg" id="myphoto">
+        <p  id="jasmin">Hi..I am Jasmin TA and this is my personal website.I am from Kodungallur,Thrissur.Currently i am doing my web development training at Techmindz institute,kakkanad,kochin.And i completed my btech on Electronics & Communication Engineering.I also completed my higher secondary education at Govt. Keralavarma Higher secondary school Eriyad.I like  singing, traveling, Gardening,and cooking in my free time.</p>
+ 
+    </body>
+</html>
+<h1 id="skills">SKILLS</h1>
+<ul type="square" id="lists">
+  <h3><li>Programming in C</li><br><br>
+  <li>Microsoft Word</li><br><br>
+  <li>Microsoft Powerpoint</li><br><br>
+  <li>Embedded Systems</li><br><br>
+  <li>Microcontroller</li></h3>
+</ul><hr>
+<div id="contact info">
+  <h1 id="information">CONTACT INFORMATION</h1>
+
+ 
+  <h4>Fill It Out....and i'll be in touch soon</h4>
+  <form action="contact.html"  method="get" enctype="application/x-www-form-urlencoded">
+    <div id="client">
+    <div>Name:</div>
+    <input type="text" id="name" name="name" required>
+
+    <div>Email:</div>
+    <input type="email" id="email" name="email" required>
+
+    <div>phone no:</div>
+    <input type="text" id="number" name="number" required>
+
+   <div> <input type="submit" id="submit"  value="Submit"></div>
+    </div>
+
+
+
+  </form>
+</div> 
+
+<div id="contact"><h1>REACH ME</h1>
+<p id="details">&#x1F4DE;Contact number:+919037302636<br>&#128233;Email id:jasminjasmi222@gmail.com<br></p>
+  <a href="https://www.linkedin.com/in/jasmin-ta-4743801b1/ " target="_blank">
+  <img src="./linkdin.webp" id="pic"><br>
+  <a href="#menu" id="options">MENU</a>
+  </a></div>
+  </body>
+</html>
